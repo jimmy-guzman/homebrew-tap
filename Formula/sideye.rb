@@ -1,28 +1,28 @@
 class Sideye < Formula
   desc "Read-only companion TUI with IDE-grade insight into agent changes"
   homepage "https://github.com/jimmy-guzman/sideye"
-  version "0.3.2"
+  version "0.3.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/jimmy-guzman/sideye/releases/download/v0.3.2/sideye-darwin-arm64.tar.gz"
-      sha256 "ccfec3ab063fb66c3a3e95755c1a6cff18ed3aa54a5b4ed762160a8e5b8a54b7"
+      url "https://github.com/jimmy-guzman/sideye/releases/download/v0.3.3/sideye-darwin-arm64.tar.gz"
+      sha256 "df04121d16544be9a8a482c96a6ef310220ff360cb03e993a1253677832a503e"
     end
     on_intel do
-      url "https://github.com/jimmy-guzman/sideye/releases/download/v0.3.2/sideye-darwin-x64.tar.gz"
-      sha256 "4862378842345183f4fb4bba0a941e4ba0959bd046fbeca729bda56ed9295f71"
+      url "https://github.com/jimmy-guzman/sideye/releases/download/v0.3.3/sideye-darwin-x64.tar.gz"
+      sha256 "e8955bbf7e0ef58ffba44cff6cc81c7e6de7b89c1aeae076db6cf0e57a646985"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/jimmy-guzman/sideye/releases/download/v0.3.2/sideye-linux-arm64.tar.gz"
-      sha256 "9c1d14a566e1a3452327827d60c2eae8ecaa55aa84f3c7300e9a005ec6513768"
+      url "https://github.com/jimmy-guzman/sideye/releases/download/v0.3.3/sideye-linux-arm64.tar.gz"
+      sha256 "ccf94065dd47112b2c57b143e4017a37b77a1091ff989fb86ae4b26ada6dcd49"
     end
     on_intel do
-      url "https://github.com/jimmy-guzman/sideye/releases/download/v0.3.2/sideye-linux-x64.tar.gz"
-      sha256 "dbc9d98f977615eeefdab023060c288028d2b673b801152c0f55052cbf46a6c7"
+      url "https://github.com/jimmy-guzman/sideye/releases/download/v0.3.3/sideye-linux-x64.tar.gz"
+      sha256 "4be632acfa80b82c479747f1829b6052d0bdb3809336afe4c9c402d9faff189b"
     end
   end
 
