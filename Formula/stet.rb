@@ -1,28 +1,28 @@
 class Stet < Formula
   desc "Read-only companion TUI for inspecting an agent's changes"
   homepage "https://github.com/jimmy-guzman/stet"
-  version "0.10.0"
+  version "0.10.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/jimmy-guzman/stet/releases/download/stet-v0.10.0/stet-darwin-arm64.tar.gz"
-      sha256 "a246e6e0361a941f0944a8fed196626207c2b88762c7f8c679bc8c8f4ad82cfd"
+      url "https://github.com/jimmy-guzman/stet/releases/download/stet-v0.10.1/stet-darwin-arm64.tar.gz"
+      sha256 "d6a45d7317d3663e3c16109c2129888a2278785a77db26a111659024846dc4d1"
     end
     on_intel do
-      url "https://github.com/jimmy-guzman/stet/releases/download/stet-v0.10.0/stet-darwin-x64.tar.gz"
-      sha256 "577130cd75cbeb47797a6fe63bce0270743a834906b6c1c821c528dc4621f4ae"
+      url "https://github.com/jimmy-guzman/stet/releases/download/stet-v0.10.1/stet-darwin-x64.tar.gz"
+      sha256 "6f70f6b28839044b08d839cd47bd11c3292788aae05b37abe808aad97bfccd25"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/jimmy-guzman/stet/releases/download/stet-v0.10.0/stet-linux-arm64.tar.gz"
-      sha256 "641b5b4d5d16260f6fe5f6e1619ca10dc0405b2b31e66cbda6b5bbdcd1eedd88"
+      url "https://github.com/jimmy-guzman/stet/releases/download/stet-v0.10.1/stet-linux-arm64.tar.gz"
+      sha256 "1b998073ae7a113122c5ddb51c7a5fe31484f2a7e5de3086df2881e359c2fe08"
     end
     on_intel do
-      url "https://github.com/jimmy-guzman/stet/releases/download/stet-v0.10.0/stet-linux-x64.tar.gz"
-      sha256 "356f8b35145e09364621bd4f87f00c10c90efca3cdb4f1c7c751bf0e2dff791a"
+      url "https://github.com/jimmy-guzman/stet/releases/download/stet-v0.10.1/stet-linux-x64.tar.gz"
+      sha256 "8c98e34b17c76ee2ffb1e4033ef49f8f612cb94cfe3f214b0ac88c09d111156b"
     end
   end
 
