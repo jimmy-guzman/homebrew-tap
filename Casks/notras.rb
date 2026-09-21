@@ -1,14 +1,14 @@
 cask "notras" do
-  version "0.6.1"
-  sha256 "402f423261babec0ebbe71ac7320fe17f6e9999fa0f32d0941a3510122830764"
+  version "0.7.0"
+  sha256 "4c0950725249cf39cfd311d7b440ff9294910f1fc0c215cd1c0f799a77f1cc6c"
 
-  url "https://github.com/jimmy-guzman/notras/releases/download/v#{version}/notras_0.6.1_universal.dmg"
+  url "https://github.com/jimmy-guzman/notras/releases/download/v#{version}/notras_0.7.0_universal.dmg"
   name "notras"
   desc "Local-first, keyboard-driven notes app"
   homepage "https://github.com/jimmy-guzman/notras"
 
   auto_updates true
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "notras.app"
 
