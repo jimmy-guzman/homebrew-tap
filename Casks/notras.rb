@@ -1,8 +1,8 @@
 cask "notras" do
-  version "0.12.0"
-  sha256 "6a8d17cd859017188166639ade6aaffba8cb35b206e90af2d3f8bc4a2b9fa65d"
+  version "0.12.1"
+  sha256 "3d433ba4d0406bca7b4f94efd4fd2e290a6e03481fff4027bac1b648bf5d35e9"
 
-  url "https://github.com/jimmy-guzman/notras/releases/download/v#{version}/notras_0.12.0_universal.dmg"
+  url "https://github.com/jimmy-guzman/notras/releases/download/v#{version}/notras_0.12.1_universal.dmg"
   name "notras"
   desc "Local-first, keyboard-driven notes app"
   homepage "https://github.com/jimmy-guzman/notras"
